@@ -1,0 +1,4 @@
+print('Please, let me know the area of your field in meters and I will convert it to feet')
+area_m = float(input('What is the length of your room? '))
+area_f = (area_m / ((3.28084**2)))
+print('The area of your field in feet is ',area_f)
