@@ -1,0 +1,5 @@
+print('Hello, I would like to help you to calculate the area of your room. Can you provide the following information in meters? (you can include decimals)')
+length = float(input('What is the length of your room? '))
+width = float(input('What is the width of your room? '))
+area = length * width
+print('The area of your room is ',area,'square meters')
